@@ -1,0 +1,51 @@
+# Laravel-specific exclusions
+/vendor/
+node_modules/
+public/storage
+public/hot
+public/*.php
+storage/*.key
+storage/logs/*.log
+.env
+.env.backup
+.env.*.backup
+Homestead.yaml
+Homestead.json
+artisan
+
+# PHP and Composer exclusions
+composer.phar
+composer.lock  # Optional: exclude if you want to version it
+*.phar
+
+# IDE and editor exclusions
+.idea/          # PhpStorm/JetBrains IDE folder
+.vscode/        # Visual Studio Code settings
+*.sublime-*     # Sublime Text files
+*.code-workspace
+
+# Build and test artifacts
+/phpunit.xml
+/tests/Browser/console/
+/tests/Browser/screenshots/
+/tests/Browser/source/
+/coverage/
+.phpunit.result.cache
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# General development artifacts
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Project-specific exclusions (optional)
+# Add any custom files or directories here
